@@ -13,7 +13,8 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/fondoCodigo2.png) no-repeat center center fixed;
+    background: url(../images/28256.jpg) no-repeat center center fixed;
+    background-color: #141f3d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +121,7 @@ html {
     color: #fff;
     width: 100%;
     transition: all 0.5s;
-    border-top: 2px solid #fff;
+    border-top: 1px solid #fff;
 }
 
 .main-nav li:hover a,
@@ -225,7 +226,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: #000000;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -311,13 +312,13 @@ html {
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #a43f49;
+    background-color: white;
     margin: 10px auto;
 }
 
 .section-heading span {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 1.1em;
     color: #fff;
     letter-spacing: 0.5px;
 }
@@ -526,23 +527,27 @@ section.my-work .section-heading {
 .isotope-toolbar input[type="radio"] {
     display: none;
 }
+.disp-inlineBlock{
+    display: inline-block;
+}
 .pantalla {
     width: 100%;
     position: relative;
-    min-height: 100vh;
     display: inline-block;
+    margin: 20px 0px;
 }
 .pantalla .reason{
     width: 100%;
-margin-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
 }
 .pantalla .reason h3{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .pantalla .reason span{
-    color: black;
-    font: 1.5em;
-    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+
 }
 .isotope-toolbar span {
     text-transform: capitalize;
