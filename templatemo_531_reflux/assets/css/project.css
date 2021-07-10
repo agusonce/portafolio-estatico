@@ -14,7 +14,7 @@ body {
 
 #page-wraper {
     background: url(../images/28256.jpg) no-repeat center center fixed;
-    background-color: #141f3d;
+    background-color: #0a132b;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -129,7 +129,21 @@ html {
     background: #fff;
     color: #8c363e;
 }
+/*  Desarrolladores */
+.Desarrolladores{
+    margin-top: 50px;
+    display: flex;
+}
 
+.Desarrolladores .container{
+    max-width: 40%;
+    width: 200px;
+    display: inline-block;
+
+}
+.Desarrolladores .container .image img{
+    border-radius: 50%;
+}
 /* Sidebar Menu */
 
 .menu .image {
