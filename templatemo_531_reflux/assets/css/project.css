@@ -141,6 +141,9 @@ html {
     display: inline-block;
 
 }
+.Desarrolladores .container .image{
+    margin-bottom: 10px;
+}
 .Desarrolladores .container .image img{
     border-radius: 50%;
 }
