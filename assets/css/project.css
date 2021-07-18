@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/28256.jpg) no-repeat center center fixed;
+/*    background: url(../images/28256.jpg) no-repeat center center fixed; */
     background-color: #0a132b;
     -webkit-background-size: cover;
     -moz-background-size: cover;
